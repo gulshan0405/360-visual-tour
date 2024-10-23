@@ -1,0 +1,21 @@
+.tour-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: fit-content; /* Adjust as per your content */
+}
+
+.tour-content {
+    display: flex;
+    width: 200%; /* Ensure content spans enough width for scroll effect */
+    animation: move 30s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

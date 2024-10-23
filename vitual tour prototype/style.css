@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#college-icon {
+    background-color: #002147;
+    display: flex;
+    justify-content: center;
+}
+
+
+#navi-container {
+    width: 32.25rem;
+    height: 3.125rem;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+i {
+    margin-top: 1.5rem;
+    margin-left: 0.6rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+i:hover {
+    color: #00FFFF;
+    transform: scale(1.1);
+}
+
+#panorama {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
