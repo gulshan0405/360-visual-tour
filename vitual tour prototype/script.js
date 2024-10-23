@@ -65,19 +65,59 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene", // Scene type to navigate
                     "text": "Exit", // Text for the hotspot
                     "sceneId": "scene2" // Scene ID of the next image
+                },
+                {
+                    "pitch": 0, // Vertical position of the hotspot
+                    "yaw": 40,  // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "stairs", // Text for the hotspot
+                    "sceneId": "scene2b" // Scene ID of the next image
                 }
             ]
         },
         "scene2b": {
             "type": "equirectangular",
-            "panorama": "enter.jpg", // First image
+            "panorama": "stairs.jpg", // First image
             "hotSpots": [
                 {
                     "pitch": -3, // Vertical position of the hotspot
-                    "yaw": -30,  // Horizontal position of the hotspot
+                    "yaw": -120, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
-                    "text": "Enter the Front Gate", // Text for the hotspot
-                    "sceneId": "scene1" // Scene ID of the next image
+                    "text": "upto second floor", // Text for the hotspot
+                    "sceneId": "scene2c" // Scene ID of the next image
+                },
+                {
+                    "pitch": -3, // Vertical position of the hotspot
+                    "yaw": 0, // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "back to main hall", // Text for the hotspot
+                    "sceneId": "scene2a" // Scene ID of the next image
+                }
+            ]
+        },
+        "scene2c": {
+            "type": "equirectangular",
+            "panorama": "officeout.jpg", // First image
+            "hotSpots": [
+                {
+                    "pitch": -3, // Vertical position of the hotspot
+                    "yaw": 5, // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "Singhara Sir Office", // Text for the hotspot
+                    "sceneId": "scene2d" // Scene ID of the next image
+                }
+            ]
+        },
+        "scene2d": {
+            "type": "equirectangular",
+            "panorama": "office.jpg", // First image
+            "hotSpots": [
+                {
+                    "pitch": -8, // Vertical position of the hotspot
+                    "yaw": -130, // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "Exit", // Text for the hotspot
+                    "sceneId": "scene2c" // Scene ID of the next image
                 }
             ]
         },
