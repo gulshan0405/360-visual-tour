@@ -30,6 +30,13 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene", // Scene type to navigate
                     "text": "Go adminblock", // Text for the hotspot
                     "sceneId": "scene2" // Scene ID of the next image
+                },
+                {
+                    "pitch": 2, // Vertical position of the hotspot
+                    "yaw": -175,  // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "Exit", // Text for the hotspot
+                    "sceneId": "scene0" // Scene ID of the next image
                 }
             ]
         },
@@ -52,6 +59,13 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene", // Scene type to navigate
                     "text": "Enter", // Text for the hotspot
                     "sceneId": "scene2a" // Scene ID of the next image
+                },
+                {
+                    "pitch": 0, // Vertical position of the hotspot
+                    "yaw": 180,  // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "back to near gate", // Text for the hotspot
+                    "sceneId": "scene1" // Scene ID of the next image
                 }
             ]
         },
@@ -105,6 +119,13 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene", // Scene type to navigate
                     "text": "Singhara Sir Office", // Text for the hotspot
                     "sceneId": "scene2d" // Scene ID of the next image
+                },
+                {
+                    "pitch": -3, // Vertical position of the hotspot
+                    "yaw": -90, // Horizontal position of the hotspot
+                    "type": "scene", // Scene type to navigate
+                    "text": "go back to stairs", // Text for the hotspot
+                    "sceneId": "scene2b" // Scene ID of the next image
                 }
             ]
         },
