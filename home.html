@@ -22,8 +22,8 @@
                 <!-- Desktop Menu -->
                 <div class="hidden lg:flex font-text space-x-8">
                     <a href="#" class="font-bold m-3 p-3 block rounded-lg text-white ">Home</a>
-                    <a href="#" class="font-bold m-3 p-3 block rounded-lg text-white ">Amenties</a>
-                    <a href="#" class="font-bold m-3 p-3 block rounded-lg text-white ">Our Team</a>
+                    <a href="#Ameneties" class="font-bold m-3 p-3 block rounded-lg text-white ">Amenties</a>
+                    <a href="#team" class="font-bold m-3 p-3 block rounded-lg text-white ">Our Team</a>
                 </div>
 
                 <!-- Hamburger Icon (Mobile) -->
@@ -46,13 +46,14 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
         </button>
-        <a href="#" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Home</a>
-        <a href="#" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Amenties</a>
-        <a href="#" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Our Team</a>
+        <a href="#home" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Home</a>
+        <a href="#Ameneties" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Amenties</a>
+        <a href="#team" class="block rounded-lg m-3 p-3 text-black hover:bg-black hover:text-white py-2">Our Team</a>
     </div>
 
     <!-- Body Content (Apply pt-20 here) -->
-    <div id="body-container" class="pt-20 p-2 first-line:min-h-screen bg-background">
+     <section id="home">
+      <div id="body-container" class="pt-20 p-2 first-line:min-h-screen bg-background">
         <div class="lg:text-7xl text-4xl p-8 px-32 ">
             <h1 class=" font-display font-extrabold  text-primary text-center">360<sup>&deg;</sup> Virtual Tour</h1>
         </div>
@@ -66,22 +67,27 @@
             </div>
         </div>
     </div>
-      <!-- Ameneties -->
-       <div class="m-3">
-       <div class="text-6xl font-extrabold font-display p-5 text-center text-primary">Ameneties </div>
-       <div id="underline" class="w-full border border-solid border-primary"></div>
-       <div id="Amenties-container"  class=" flex justify-around h-fit w-full mb-3 p-2 border border-solid  bg-background">
-       <a href="./vitual tour prototype/index.html"><div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md ">Admistrative Block</div></a> 
-        <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
-        <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
-        <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
-        <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
+     </section>
+     
+    <!-- Ameneties -->
+    <section id="Ameneties">
+      <div class="m-3">
+        <div class="text-6xl font-extrabold font-display p-5 text-center text-primary">Ameneties </div>
+        <div id="underline" class="w-full border border-solid border-primary"></div>
+        <div id="Amenties-container"  class=" flex justify-around h-fit w-full mb-3 p-2 border border-solid  bg-background">
+        <a href="./vitual tour prototype/index.html"><div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md ">Admistrative Block</div></a> 
+         <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
+         <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
+         <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
+         <div id="admin" type="button" class="p-3 mb-3 border font-display text-white bg-secondary rounded-md">Admistrative Block</div>
+        </div>
        </div>
-      </div>
+    </section>
+       
 
        <!-- Cards of the team member -->
     <section id="team" class="team bg-background">
-        <div class="container">
+        <div class="container w-full">
             <div class="text-center">
                 <h2 class="text-5xl text-primary font-bold font-display">Our Team</h2>
                 <p class="text-2xl font-text mt-4 pops2">This project has been designed, developed and managed in-house by the following team members of our institution.</p>
@@ -92,8 +98,8 @@
                     <div class="member d-flex align-items-start">
                         <div class="pic"><img src="static/team/1.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Prof. Singara Singh Kasana</h4>
-                            <span>Dean of Academic Affairs, <br>C.U.H<br> Professor <br> Computer Science & <br>Information Technology
+                            <h4 class="">Prof. Singara Singh</h4>
+                            <span>Professor<br>Computer Science & <br>Information Technology <br>Central Univercity of Haryana
                                 <h3><b>Project Lead, Cloud Architect</b></h3>
                             </span>
                         </div>

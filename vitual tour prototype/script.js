@@ -175,7 +175,7 @@ var viewer = pannellum.viewer('panorama', {
                 }
             ]
         }
-    }
+ }
    
 
 });

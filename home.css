@@ -6,6 +6,10 @@
     padding: 0;
     margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 #top-container {
     height: auto;
@@ -51,6 +55,10 @@
 
 #partition{
     height: 1px;
+}
+
+#Ameneties {
+  padding: 2.2rem 0;
 }
 
 @keyframes pop-up {
@@ -114,6 +122,23 @@ nav a::after {
 /* On hover, slide the underline from left to right */
 nav a:hover::after {
     transform: translateX(0); /* Bring underline into view */
+}
+
+#team{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  padding:4.2rem 0;
+}
+#members {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .team {
