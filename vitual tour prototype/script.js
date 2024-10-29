@@ -9,15 +9,17 @@ var viewer = pannellum.viewer('panorama', {
         "scene0": {
             "type": "equirectangular",
             "panorama": "front gate.jpg", // First image
-            "hotSpots": [
-                {
-                    "pitch": -3, // Vertical position of the hotspot
-                    "yaw": -30,  // Horizontal position of the hotspot
-                    "type": "scene", // Scene type to navigate
-                    "text": "Enter the Front Gate", // Text for the hotspot
-                    "sceneId": "scene1" // Scene ID of the next image
-                }
-            ]
+           "hotSpots": [
+    {
+        "pitch": -3, // Vertical position of the hotspot
+        "yaw": -30,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": "Enter the Front Gate", // Text for the hotspot
+        "sceneId": "scene1", // Scene ID of the next image
+        "cssClass": "custom-icon-gate" // Custom icon class
+    }
+]
+
         },
         
         "scene1": {
