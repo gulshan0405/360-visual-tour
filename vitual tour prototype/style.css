@@ -57,7 +57,7 @@ i:hover {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('hotspotIcon.gif'); /* Replace with the correct path to your GIF */
+    background-image: url('./arrowsIcon/up.gif'); /* Replace with the correct path to your GIF */
     background-size: cover;
     background-repeat: no-repeat;
     border: none;

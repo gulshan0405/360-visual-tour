@@ -291,18 +291,3 @@ nav a:hover::after {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
 }
 
-/* Custom icon class for the hotspot */
-.custom-icon-gate::before {
-  content: "";
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  background-image: url('Up Chevron (1).gif'); /* Replace with the correct path to your GIF */
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
