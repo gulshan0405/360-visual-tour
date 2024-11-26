@@ -52,7 +52,7 @@ i:hover {
 }
 
 /* Custom icon class for the hotspot */
-.custom-icon-gate::before {
+.custom-icon-up::before {
     content: "";
     display: inline-block;
     width: 32px;
@@ -67,3 +67,47 @@ i:hover {
     transform: translate(-50%, -50%);
   }
   
+  .custom-icon-down::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./arrowsIcon/down.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .custom-icon-left::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./arrowsIcon/left.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .custom-icon-right::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./arrowsIcon/right.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

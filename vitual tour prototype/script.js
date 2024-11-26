@@ -16,7 +16,7 @@ var viewer = pannellum.viewer('panorama', {
         "type": "scene", // Scene type to navigate
         "text": "Enter the Front Gate", // Text for the hotspot
         "sceneId": "scene1", // Scene ID of the next image
-        "cssClass": "custom-icon-gate" // Custom icon class
+        "cssClass": "custom-icon-up" // Custom icon class
     }
 ]
 
@@ -31,14 +31,16 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": 0,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Go adminblock", // Text for the hotspot
-                    "sceneId": "scene2" // Scene ID of the next image
+                    "sceneId": "scene2", // Scene ID of the next image4
+                    "cssClass":"custom-icon-up"
                 },
                 {
                     "pitch": 2, // Vertical position of the hotspot
                     "yaw": -175,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Exit", // Text for the hotspot
-                    "sceneId": "scene0" // Scene ID of the next image
+                    "sceneId": "scene0", // Scene ID of the next image
+                     "cssClass":"custom-icon-down"
                 }
             ]
         },
@@ -52,7 +54,8 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": -105,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Go to Scene 2", // Text for the hotspot
-                    "sceneId": "scene3" // Scene ID of the next image
+                    "sceneId": "scene3", // Scene ID of the next image
+                     "cssClass":"custom-icon-right"
                 },  
             
                 {
@@ -60,14 +63,16 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": 0,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Enter", // Text for the hotspot
-                    "sceneId": "scene2a" // Scene ID of the next image
+                    "sceneId": "scene2a", // Scene ID of the next image
+                    "cssClass":"custom-icon-up"
                 },
                 {
-                    "pitch": 0, // Vertical position of the hotspot
+                    "pitch": 5, // Vertical position of the hotspot
                     "yaw": 180,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "back to near gate", // Text for the hotspot
-                    "sceneId": "scene1" // Scene ID of the next image
+                    "sceneId": "scene1" ,// Scene ID of the next image
+                    "cssClass":"custom-icon-down"
                 }
             ]
         },
