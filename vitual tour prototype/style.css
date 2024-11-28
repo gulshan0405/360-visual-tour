@@ -55,8 +55,8 @@ i:hover {
 .custom-icon-up::before {
     content: "";
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     background-image: url('./arrowsIcon/up.gif'); /* Replace with the correct path to your GIF */
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ i:hover {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('./arrowsIcon/left.gif'); /* Replace with the correct path to your GIF */
+    background-image: url('./arrowsIcon/upLeft.gif'); /* Replace with the correct path to your GIF */
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
@@ -111,3 +111,16 @@ i:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .custom-icon-exit::before {
+    content: "";
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    background-image: url('./arrowsIcon/exit.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

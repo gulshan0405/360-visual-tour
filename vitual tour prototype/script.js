@@ -35,12 +35,12 @@ var viewer = pannellum.viewer('panorama', {
                     "cssClass":"custom-icon-up"
                 },
                 {
-                    "pitch": 2, // Vertical position of the hotspot
-                    "yaw": -175,  // Horizontal position of the hotspot
+                    "pitch": 3, // Vertical position of the hotspot
+                    "yaw": -177,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Exit", // Text for the hotspot
                     "sceneId": "scene0", // Scene ID of the next image
-                     "cssClass":"custom-icon-down"
+                     "cssClass":"custom-icon-exit"
                 }
             ]
         },
@@ -51,15 +51,15 @@ var viewer = pannellum.viewer('panorama', {
             "hotSpots": [
                 {
                     "pitch": 0, // Vertical position of the hotspot
-                    "yaw": -105,  // Horizontal position of the hotspot
+                    "yaw": -106,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Go to Scene 2", // Text for the hotspot
                     "sceneId": "scene3", // Scene ID of the next image
-                     "cssClass":"custom-icon-right"
+                     "cssClass":"custom-icon-left"
                 },  
             
                 {
-                    "pitch": 0, // Vertical position of the hotspot
+                    "pitch": -2, // Vertical position of the hotspot
                     "yaw": 0,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Enter", // Text for the hotspot
