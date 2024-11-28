@@ -50,12 +50,12 @@ var viewer = pannellum.viewer('panorama', {
             "panorama": "PXL_20241013_170059050.PHOTOSPHERE.jpg", // third image
             "hotSpots": [
                 {
-                    "pitch": 0, // Vertical position of the hotspot
+                    "pitch": 2, // Vertical position of the hotspot
                     "yaw": -106,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Go to Scene 2", // Text for the hotspot
                     "sceneId": "scene3", // Scene ID of the next image
-                     "cssClass":"custom-icon-left"
+                     "cssClass":"custom-icon-point"
                 },  
             
                 {
@@ -67,12 +67,12 @@ var viewer = pannellum.viewer('panorama', {
                     "cssClass":"custom-icon-up"
                 },
                 {
-                    "pitch": 5, // Vertical position of the hotspot
-                    "yaw": 180,  // Horizontal position of the hotspot
+                    "pitch": 1, // Vertical position of the hotspot
+                    "yaw": 177,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "back to near gate", // Text for the hotspot
                     "sceneId": "scene1" ,// Scene ID of the next image
-                    "cssClass":"custom-icon-down"
+                    "cssClass":"custom-icon-point"
                 }
             ]
         },
@@ -154,18 +154,20 @@ var viewer = pannellum.viewer('panorama', {
             "panorama": "PXL_20241013_170433309.PHOTOSPHERE.jpg", // fourth image
             "hotSpots": [
                 {
-                    "pitch": 2, // Vertical position of the hotspot
+                    "pitch": 4, // Vertical position of the hotspot
                     "yaw": -5,  // Horizontal position of the hotspot
                     "type": "scene",
                     "text": "Back to Scene 1",
-                    "sceneId": "scene2" // Navigate back to the first image
+                    "sceneId": "scene2" ,// Navigate back to the first image
+                    "cssClass":"custom-icon-point"
                 },
                 {
                     "pitch": 2,   // Adjust as needed
                     "yaw": -115,  // Adjust as needed
                     "type": "scene",
                     "text": "Go to Scene 3", // Navigate to Scene 3
-                    "sceneId": "scene4"
+                    "sceneId": "scene4",
+                     "cssClass":"custom-icon-point"
                 }
             ]
         },

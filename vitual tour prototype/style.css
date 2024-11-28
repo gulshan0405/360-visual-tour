@@ -97,12 +97,12 @@ i:hover {
     transform: translate(-50%, -50%);
   }
   
-  .custom-icon-right::before {
+  .custom-icon-point::before {
     content: "";
     display: inline-block;
-    width: 32px;
-    height: 32px;
-    background-image: url('./arrowsIcon/right.gif'); /* Replace with the correct path to your GIF */
+    width: 92px;
+    height: 92px;
+    background-image: url('./arrowsIcon/pointing-unscreen.gif'); /* Replace with the correct path to your GIF */
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
