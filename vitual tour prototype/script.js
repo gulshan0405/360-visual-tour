@@ -189,6 +189,21 @@ var viewer = pannellum.viewer('panorama', {
 
 });
 
+// Custom Loader: Show before any scene loads
+viewer.on('scenechange', function () {
+    document.getElementById('custom-loader').style.display = 'flex';
+});
+
+// Custom Loader: Hide after scene finishes loading
+viewer.on('load', function () {
+    document.getElementById('custom-loader').style.display = 'none';
+});
+
+// Completely disable Pannellum's default spinner
+viewer.on('error', function () {
+    console.error("Scene load failed.");
+});
+
 // Zoom In
 document.getElementById('zoom-in').addEventListener('click', function () {
     viewer.setHfov(viewer.getHfov() - 20);
