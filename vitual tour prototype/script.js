@@ -24,7 +24,7 @@ var viewer = pannellum.viewer('panorama', {
         
         "scene1": {
             "type": "equirectangular",
-            "panorama": "PXL_20241013_165159466.PHOTOSPHERE~2.jpg", // Second image
+            "panorama": "RoadToAdmin.jpg", // Second image
             "hotSpots": [
                 {
                     "pitch": 0, // Vertical position of the hotspot
@@ -47,7 +47,7 @@ var viewer = pannellum.viewer('panorama', {
 // inside admin block
         "scene2": {
             "type": "equirectangular",
-            "panorama": "PXL_20241013_170059050.PHOTOSPHERE.jpg", // third image
+            "panorama": "adminBlockFront.jpg", // third image
             "hotSpots": [
                 {
                     "pitch": 2, // Vertical position of the hotspot
@@ -151,7 +151,7 @@ var viewer = pannellum.viewer('panorama', {
         },
         "scene3": {
             "type": "equirectangular",
-            "panorama": "PXL_20241013_170433309.PHOTOSPHERE.jpg", // fourth image
+            "panorama": "adminLeft.jpg", // fourth image
             "hotSpots": [
                 {
                     "pitch": 4, // Vertical position of the hotspot
@@ -167,20 +167,21 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go to Scene 3", // Navigate to Scene 3
                     "sceneId": "scene4",
-                     "cssClass":"custom-icon-point"
+                     "cssClass":"custom-icon-point",
+                     "cssClass": "custom-always-visible-tooltip" // Assign the custom class
                 }
             ]
         },
         "scene4": {
             "type": "equirectangular",
-            "panorama": "PXL_20241013_170654893.PHOTOSPHERE.jpg", // fifth image
+            "panorama": "backAdmin.jpg", // fifth image
             "hotSpots": [
                 {
                     "pitch": 2,
                     "yaw": 0,
                     "type": "scene",
                     "text": "Back to Scene 2",
-                    "sceneId": "scene2" // Navigate back to scene 2
+                    "sceneId": "scene2" ,// Navigate back to scene 2
                 }
             ]
         }
