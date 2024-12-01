@@ -167,8 +167,8 @@ var viewer = pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Go to Scene 3", // Navigate to Scene 3
                     "sceneId": "scene4",
-                     "cssClass":"custom-icon-point",
-                     "cssClass": "custom-always-visible-tooltip" // Assign the custom class
+                     "cssClass":"custom-icon-point"
+                   
                 }
             ]
         },
