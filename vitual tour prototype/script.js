@@ -31,7 +31,7 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": 0,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Go adminblock", // Text for the hotspot
-                    "sceneId": "scene2", // Scene ID of the next image4
+                    "sceneId": "scene1a", // Scene ID of the next image4
                     "cssClass":"custom-icon-up"
                 },
                 {
@@ -44,6 +44,75 @@ var viewer = pannellum.viewer('panorama', {
                 }
             ]
         },
+        "scene1a": {
+            "type": "equirectangular",
+            "panorama": "ChowkAdmin1.jpg", // First image
+           "hotSpots": [
+    {
+        "pitch": 5, // Vertical position of the hotspot
+        "yaw": -73,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": "back to near gate", // Text for the hotspot
+        "sceneId": "scene1", // Scene ID of the next image
+        "cssClass": "custom-icon-point" // Custom icon class
+    },
+    {
+        "pitch": 0, // Vertical position of the hotspot
+        "yaw": 100,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": "Admin Block", // Text for the hotspot
+        "sceneId": "scene2", // Scene ID of the next image
+        "cssClass": "custom-icon-point" // Custom icon class
+    },
+    {
+        "pitch": -5, // Vertical position of the hotspot
+        "yaw": -10,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": "ROAD TO VC HOUSE", // Text for the hotspot
+        "sceneId": "scene1b", // Scene ID of the next image
+         "cssClass":"custom-icon-up"
+    }
+]
+ 
+},  
+        "scene1b": {
+            "type": "equirectangular",
+            "panorama": "Toward VC.jpg", // First image
+           "hotSpots": [
+    {
+        "pitch": -6, // Vertical position of the hotspot
+        "yaw": 0,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": "JUMP To VC-House", // Text for the hotspot
+        "sceneId": "scene1c", // Scene ID of the next image
+        "cssClass": "custom-icon-point" // Custom icon class
+    },
+    {
+        "pitch": -6, // Vertical position of the hotspot
+        "yaw": 180,  // Horizontal position of the hotspot
+        "type": "scene", // Scene type to navigate
+        "text": " BACK TO CHOWK", // Text for the hotspot
+        "sceneId": "scene1a", // Scene ID of the next image
+        "cssClass": "custom-icon-point" // Custom icon class
+    }
+]
+  },
+  "scene1c": {
+    "type": "equirectangular",
+    "panorama": "VC House.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -3, // Vertical position of the hotspot
+"yaw": -30,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "Enter the Front Gate", // Text for the hotspot
+"sceneId": "scene1", // Scene ID of the next image
+"cssClass": "custom-icon-up" // Custom icon class
+}
+]
+
+},
+
 // inside admin block
         "scene2": {
             "type": "equirectangular",
@@ -70,8 +139,8 @@ var viewer = pannellum.viewer('panorama', {
                     "pitch": 1, // Vertical position of the hotspot
                     "yaw": 177,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
-                    "text": "back to near gate", // Text for the hotspot
-                    "sceneId": "scene1" ,// Scene ID of the next image
+                    "text": "Chowk", // Text for the hotspot
+                    "sceneId": "scene1a" ,// Scene ID of the next image
                     "cssClass":"custom-icon-point"
                 }
             ]
@@ -157,7 +226,7 @@ var viewer = pannellum.viewer('panorama', {
                     "pitch": 4, // Vertical position of the hotspot
                     "yaw": -5,  // Horizontal position of the hotspot
                     "type": "scene",
-                    "text": "Back to Scene 1",
+                    "text": "",
                     "sceneId": "scene2" ,// Navigate back to the first image
                     "cssClass":"custom-icon-point"
                 },
