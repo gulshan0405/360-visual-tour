@@ -102,6 +102,29 @@ var viewer = pannellum.viewer('panorama', {
     "panorama": "VC House.jpg", // First image
    "hotSpots": [
 {
+"pitch": -10, // Vertical position of the hotspot
+"yaw": 180,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "Toward WiFi Park", // Text for the hotspot
+"sceneId": "scene1d", // Scene ID of the next image
+"cssClass": "custom-icon-right" // Custom icon class
+},
+{
+    "pitch": -10, // Vertical position of the hotspot
+    "yaw": 170,  // Horizontal position of the hotspot
+    "type": "scene", // Scene type to navigate
+    "text": "Toword Admin Block", // Text for the hotspot
+    "sceneId": "scene1b", // Scene ID of the next image
+    "cssClass": "custom-icon-left" // Custom icon class
+    }
+]
+
+},
+"scene1d": {
+    "type": "equirectangular",
+    "panorama": "Wifi-pArk.jpg", // First image
+   "hotSpots": [
+{
 "pitch": -3, // Vertical position of the hotspot
 "yaw": -30,  // Horizontal position of the hotspot
 "type": "scene", // Scene type to navigate
