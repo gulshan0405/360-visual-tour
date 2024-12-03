@@ -66,7 +66,20 @@ i:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  .custom-icon-up-big::before {
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 62px;
+    background-image: url('./arrowsIcon/up.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .custom-icon-down::before {
     content: "";
     display: inline-block;

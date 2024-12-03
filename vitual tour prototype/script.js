@@ -11,11 +11,11 @@ var viewer = pannellum.viewer('panorama', {
             "panorama": "front gate.jpg", // First image
            "hotSpots": [
     {
-        "pitch": -3, // Vertical position of the hotspot
+        "pitch": -5, // Vertical position of the hotspot
         "yaw": -30,  // Horizontal position of the hotspot
         "type": "scene", // Scene type to navigate
         "text": "Enter the Front Gate", // Text for the hotspot
-        "sceneId": "scene1", // Scene ID of the next image
+        "sceneId": "BLOCKS", // Scene ID of the next image
         "cssClass": "custom-icon-up" // Custom icon class
     }
 ]
@@ -44,6 +44,7 @@ var viewer = pannellum.viewer('panorama', {
                 }
             ]
         },
+        // Admin-To-Wifi-Park
         "scene1a": {
             "type": "equirectangular",
             "panorama": "ChowkAdmin1.jpg", // First image
@@ -126,15 +127,73 @@ var viewer = pannellum.viewer('panorama', {
    "hotSpots": [
 {
 "pitch": -3, // Vertical position of the hotspot
-"yaw": -30,  // Horizontal position of the hotspot
+"yaw": 70,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "Front view of Wifi", // Text for the hotspot
+"sceneId": "scene1e", // Scene ID of the next image
+"cssClass": "custom-icon-point" // Custom icon class
+}
+]
+
+},
+
+"scene1e": {
+    "type": "equirectangular",
+    "panorama": "WifiPark2.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -3, // Vertical position of the hotspot
+"yaw": 0,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "Center-view of wifi-park", // Text for the hotspot
+"sceneId": "scene1f", // Scene ID of the next image
+"cssClass": "custom-icon-up-big" // Custom icon class
+},
+{
+    "pitch": -3, // Vertical position of the hotspot
+    "yaw": 180,  // Horizontal position of the hotspot
+    "type": "scene", // Scene type to navigate
+    "text": "Wide-View Of Department", // Text for the hotspot
+    "sceneId": "BLOCKS", // Scene ID of the next image
+    "cssClass": "custom-icon-point" // Custom icon class
+}
+]
+
+},
+
+"scene1f": {
+    "type": "equirectangular",
+    "panorama": "Wifi-Park3.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -3, // Vertical position of the hotspot
+"yaw": 180,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "Wifi-Park-Front", // Text for the hotspot
+"sceneId": "scene1e", // Scene ID of the next image
+"cssClass": "custom-icon-point" // Custom icon class
+}
+]
+
+},
+
+// Department-Blocks
+"BLOCKS": {
+    "type": "equirectangular",
+    "panorama": "Blocks-Wide.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -5, // Vertical position of the hotspot
+"yaw": 0,  // Horizontal position of the hotspot
 "type": "scene", // Scene type to navigate
 "text": "Enter the Front Gate", // Text for the hotspot
-"sceneId": "scene1", // Scene ID of the next image
+"sceneId": "scene1d", // Scene ID of the next image
 "cssClass": "custom-icon-up" // Custom icon class
 }
 ]
 
 },
+
 
 // inside admin block
         "scene2": {
@@ -177,14 +236,16 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": 170,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Exit", // Text for the hotspot
-                    "sceneId": "scene2" // Scene ID of the next image
+                    "sceneId": "scene2", // Scene ID of the next image
+                    "cssClass":"custom-icon-exit"
                 },
                 {
                     "pitch": 0, // Vertical position of the hotspot
                     "yaw": 40,  // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "stairs", // Text for the hotspot
-                    "sceneId": "scene2b" // Scene ID of the next image
+                    "sceneId": "scene2b", // Scene ID of the next image
+                    "cssClass":"custom-icon-point"
                 }
             ]
         },
@@ -197,14 +258,16 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": -120, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "upto second floor", // Text for the hotspot
-                    "sceneId": "scene2c" // Scene ID of the next image
+                    "sceneId": "scene2c", // Scene ID of the next image
+                    "cssClass":"custom-icon-point"
                 },
                 {
                     "pitch": -3, // Vertical position of the hotspot
                     "yaw": 0, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "back to main hall", // Text for the hotspot
-                    "sceneId": "scene2a" // Scene ID of the next image
+                    "sceneId": "scene2a", // Scene ID of the next image
+                    "cssClass":"custom-icon-point"
                 }
             ]
         },
@@ -217,14 +280,16 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": 5, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Singhara Sir Office", // Text for the hotspot
-                    "sceneId": "scene2d" // Scene ID of the next image
+                    "sceneId": "scene2d", // Scene ID of the next image
+                    "cssClass":"custom-icon-exit"
                 },
                 {
                     "pitch": -3, // Vertical position of the hotspot
                     "yaw": -90, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "go back to stairs", // Text for the hotspot
-                    "sceneId": "scene2b" // Scene ID of the next image
+                    "sceneId": "scene2b", // Scene ID of the next image
+                    "cssClass":"custom-icon-point"
                 }
             ]
         },
@@ -237,7 +302,8 @@ var viewer = pannellum.viewer('panorama', {
                     "yaw": -130, // Horizontal position of the hotspot
                     "type": "scene", // Scene type to navigate
                     "text": "Exit", // Text for the hotspot
-                    "sceneId": "scene2c" // Scene ID of the next image
+                    "sceneId": "scene2c", // Scene ID of the next image
+                    "cssClass":"custom-icon-exit"
                 }
             ]
         },
