@@ -11,11 +11,11 @@ var viewer = pannellum.viewer('panorama', {
             "panorama": "front gate.jpg", // First image
            "hotSpots": [
     {
-        "pitch": -5, // Vertical position of the hotspot
+        "pitch": -3, // Vertical position of the hotspot
         "yaw": -30,  // Horizontal position of the hotspot
         "type": "scene", // Scene type to navigate
         "text": "Enter the Front Gate", // Text for the hotspot
-        "sceneId": "BLOCKS", // Scene ID of the next image
+        "sceneId": "scene1", // Scene ID of the next image
         "cssClass": "custom-icon-up" // Custom icon class
     }
 ]
@@ -186,9 +186,70 @@ var viewer = pannellum.viewer('panorama', {
 "pitch": -5, // Vertical position of the hotspot
 "yaw": 0,  // Horizontal position of the hotspot
 "type": "scene", // Scene type to navigate
-"text": "Enter the Front Gate", // Text for the hotspot
-"sceneId": "scene1d", // Scene ID of the next image
+"text": "JUMP-TO-BLOCK-3", // Text for the hotspot
+"sceneId": "BLOCK-3", // Scene ID of the next image
 "cssClass": "custom-icon-up" // Custom icon class
+},
+{
+    "pitch": 4, // Vertical position of the hotspot
+    "yaw": -120,  // Horizontal position of the hotspot
+    "type": "scene", // Scene type to navigate
+    "text": "JUMP-TO-BLOCK-1", // Text for the hotspot
+    "sceneId": "BLOCK-1", // Scene ID of the next image
+    "cssClass": "custom-icon-point" // Custom icon class
+},
+{
+    "pitch": 4, // Vertical position of the hotspot
+    "yaw": 70,  // Horizontal position of the hotspot
+    "type": "scene", // Scene type to navigate
+    "text": "JUMP-TO-BLOCK-4", // Text for the hotspot
+    "sceneId": "BLOCK-4", // Scene ID of the next image
+    "cssClass": "custom-icon-point" // Custom icon class
+}
+]
+
+},
+"BLOCK-3": {
+    "type": "equirectangular",
+    "panorama": "BLOCK-3.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -3, // Vertical position of the hotspot
+"yaw": -175,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "BACK-TO-WIDE-VIEW", // Text for the hotspot
+"sceneId": "BLOCKS", // Scene ID of the next image
+"cssClass": "custom-icon-up-big" // Custom icon class
+}
+]
+
+},
+"BLOCK-1": {
+    "type": "equirectangular",
+    "panorama": "BLOCK-1.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -5, // Vertical position of the hotspot
+"yaw": -177,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "BACK-TO-WIDE-VIEW", // Text for the hotspot
+"sceneId": "BLOCKS", // Scene ID of the next image
+"cssClass": "custom-icon-up-big" // Custom icon class
+}
+]
+
+},
+"BLOCK-4": {
+    "type": "equirectangular",
+    "panorama": "BLOCK-4.jpg", // First image
+   "hotSpots": [
+{
+"pitch": -5, // Vertical position of the hotspot
+"yaw": 180,  // Horizontal position of the hotspot
+"type": "scene", // Scene type to navigate
+"text": "BACK-TO-WIDE-VIEW", // Text for the hotspot
+"sceneId": "BLOCKS", // Scene ID of the next image
+"cssClass": "custom-icon-up-big" // Custom icon class
 }
 ]
 
