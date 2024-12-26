@@ -14,7 +14,7 @@ var viewer = pannellum.viewer('panorama', {
         "yaw": 0,  // Horizontal position
         "type": "scene", // Action type
         "text": "Enter the Front Gate", // Tooltip text
-        "sceneId": "scene-6", // Target scene
+        "sceneId": "scene-1", // Target scene
         "cssClass": "custom-icon-up-big" // Custom CSS class
     }
 ]
@@ -56,7 +56,7 @@ var viewer = pannellum.viewer('panorama', {
     },
     {
         "pitch": -3, // Vertical position
-        "yaw": 100,  // Horizontal position
+        "yaw": 110,  // Horizontal position
         "type": "scene", // Action type
         "text": "Go back", // Tooltip text
         "sceneId": "scene-1", // Target scene
