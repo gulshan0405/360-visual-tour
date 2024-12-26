@@ -121,6 +121,8 @@ var viewer = pannellum.viewer('panorama', {
 ]
 
 },
+
+// wifi park
 "scene1d": {
     "type": "equirectangular",
     "panorama": "Wifi-pArk.jpg", // First image
@@ -132,7 +134,15 @@ var viewer = pannellum.viewer('panorama', {
 "text": "Front view of Wifi", // Text for the hotspot
 "sceneId": "scene1e", // Scene ID of the next image
 "cssClass": "custom-icon-point" // Custom icon class
-}
+},
+{
+    "pitch": -7, // Vertical position of the hotspot
+    "yaw": 180,  // Horizontal position of the hotspot
+    "type": "scene", // Scene type to navigate
+    "text": "back to vc house", // Text for the hotspot
+    "sceneId": "scene1c", // Scene ID of the next image
+    "cssClass": "custom-icon-up-big" // Custom icon class
+    }
 ]
 
 },
@@ -404,25 +414,10 @@ var viewer = pannellum.viewer('panorama', {
                 }
             ]
         }
- }
-   
+ }  
 
 });
 
-// Custom Loader: Show before any scene loads
-viewer.on('scenechange', function () {
-    document.getElementById('custom-loader').style.display = 'flex';
-});
-
-// Custom Loader: Hide after scene finishes loading
-viewer.on('load', function () {
-    document.getElementById('custom-loader').style.display = 'none';
-});
-
-// Completely disable Pannellum's default spinner
-viewer.on('error', function () {
-    console.error("Scene load failed.");
-});
 
 // Zoom In
 document.getElementById('zoom-in').addEventListener('click', function () {

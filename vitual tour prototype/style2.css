@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#college-icon {
+    background-color: #002147;
+    display: flex;
+    justify-content: center;
+}
+
+
+#navi-container {
+    width: 32.25rem;
+    height: 3.125rem;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+i {
+    margin-top: 1.5rem;
+    margin-left: 0.6rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+i:hover {
+    color: #00FFFF;
+    transform: scale(1.1);
+}
+
+#panorama {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+/* Custom icon class for the hotspot */
+.custom-icon-up::before {
+    content: "";
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-image: url('./arrowsIcon/up.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom-icon-up-big::before {
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 62px;
+    background-image: url('./arrowsIcon/up.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom-icon-down::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('./arrowsIcon/down.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .custom-icon-left::before {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url('./arrowsIcon/upLeft.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom-icon-right::before {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url('./arrowsIcon/upRight.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .custom-icon-point::before {
+    content: "";
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    background-image: url('./arrowsIcon/pointing-unscreen.gif'); /* Replace with the correct path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom-icon-exit::before {
+    content: "";
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    background-image: url('./arrowsIcon/exit.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
